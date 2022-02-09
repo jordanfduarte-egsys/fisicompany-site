@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) {
+	body {
+	   background: #f5f4f4 !important;
+	}
+	#todo_content, form, .dataTables_wrapper {
+	   width: 100% !important;
+	}
+	blockquote {
+	    position: inherit;
+	}
+	
+	table {
+		width: 100% !important;
+	    overflow-x: auto;
+	    display: block;
+    }
+    .icoprint {
+        display: none;
+    }
+    
+    #imagem_pos_upload {
+	    clear: both;
+	    width: 100%;
+	    margin-top: 15px;
+    }
+    #imagem_pos_upload img {
+        float: left;
+        width: auto;
+        margin-top: 0px;
+    }
+	.responsive-info-client {
+	   display: block;
+	   float: right;
+	}
+	
+	.responsive-info-client a {
+	   color: #777;
+	   padding-right: 15px;
+	}
+	
+	.toggle-msg-saudacao:after {
+	   content: attr(data-responsive);
+	}
+	
+	.toggle-msg-saudacao p {
+	   display: none;
+	}
+	
+	.menu_logo img {
+	   padding-left: 10px;
+	}
+}

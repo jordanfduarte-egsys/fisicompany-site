@@ -1,0 +1,31 @@
+#todo_content {
+	width: 100%;
+	margin: 0 auto;
+}
+.view_dialog {
+	display: none;
+}
+.DTTT_button{
+	padding: 2px !important;
+	background: none !important;
+	border: none !important;
+}
+
+.novo-registro {
+	float: right;
+	margin-right: 5px;
+	margin-top: -17px;
+}
+
+.panel-body table td p{
+	max-width: 246px !important;
+	clear: both;
+}
+.handle{
+	width: 20px !important;
+	cursor: move;
+}
+blockquote {
+	position: inherit;
+	margin-top: 10px;
+}

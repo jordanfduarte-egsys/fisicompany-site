@@ -1,0 +1,140 @@
+label {
+	display: block;
+}
+fieldset.scheduler-border {
+	border: 1px groove #ddd !important;
+	padding: 0 1.4em 1.4em 1.4em !important;
+	margin: 0 0 1.5em 0 !important;
+	-webkit-box-shadow: 0px 0px 0px 0px #000;
+	box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+	width: inherit; /* Or auto */
+	padding: 0 10px; /* To give a bit of padding on the left and right */
+	border-bottom: none;
+}
+form {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.breadcrumb {
+	width: 100%;
+	margin: 0 auto;
+}
+.novo-registro a {
+	color: #FFFFFF;
+}
+#login {
+	width: 460px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+	padding: 20px;
+	box-shadow: 1px 0px 6px 1px #CCC;
+	background: rgba(227, 227, 225, 0.44);
+}
+#login form {
+	width: 410px !important;
+}
+#login img{
+	margin-bottom: 15px;
+	width: 432px;
+}
+.ajax-upload-dragdrop {
+	width: 347px;
+}
+.ajax-upload-dragdrop form {
+	width: 100%;
+}
+
+#imagem_pos_upload img {
+	float: right;
+	width: 330px;
+	margin-top: -62px;
+}
+.clear_both {
+	float: left;
+	clear: both;
+}
+.ajax-upload-dragdrop span {
+	margin-left: 5px;
+}
+#imagem_pos_upload .alert-danger {
+	width: 350px;
+}
+.progress {
+	width: 364px;
+}
+/* Imagens */
+.imagem_mini {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid black;
+	float: left;
+	margin: 5px;
+}
+#imagens .imagem_mini_remove {
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 75px;
+}
+#imagens img {
+	width: 87px;
+	height: 87px;
+}
+.imagem_mini_favorito {
+	position: relative;
+	margin-top: -6px;
+}
+.imagem_mini_favorito_a_img {
+	width: auto !important;
+	height: auto !important;
+}
+#imagens img {
+	cursor: all-scroll;
+}
+.imagem_mini_remove_a img, .imagem_mini_favorito img {
+	cursor: pointer !important;
+}
+tbody .img-thumbnail {
+	height: 100px;
+}
+td.visu_top {
+	position: relative;
+	top: -63px;
+}
+div.fildImagemTreino .img-thumbnail{
+	max-width: 400px;
+}
+.dataTables_wrapper {
+	width: 100% !important;
+}
+
+.isloading-wrapper.isloading-right {
+    margin-left: 10px;
+}
+.isloading-overlay {
+    position: relative;
+    text-align: center;
+}
+.isloading-overlay .isloading-wrapper {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: #FFFFFF;
+    -webkit-border-radius: 7px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 7px;
+    -moz-background-clip: padding;
+    border-radius: 7px;
+    background-clip: padding-box;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    top: 10%;
+    z-index: 9000;
+}
+fieldset input[type=submit].btn-success {
+	margin-right: 10px;
+}
